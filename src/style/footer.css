@@ -1,0 +1,11 @@
+#footer{
+    height: inherit;
+    background-color: #282828;
+    display: grid;
+    grid-template-columns: 1fr 13fr 1fr 1fr 1fr;
+}
+
+img {
+    width: 3vw;
+    color: #000;
+}

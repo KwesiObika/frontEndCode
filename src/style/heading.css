@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'logoTitleFont';
+    src: url('./fonts/CourierPrime-Regular.ttf') format('truetype');
+}
+
+#heading {
+    background-color: #e4e4e4;
+    height: inherit;
+    display: grid;
+    grid-template-columns: 5fr 25fr 3fr 3fr 3fr 1fr;
+    align-items: center;
+    justify-items: center;
+}
+img{
+    height: inherit;
+}
+#title {
+    font-family: 'logoTitleFont', Fallback, sans-serif;
+    font-size: xx-large;
+}
+.title-link, .title-link:hover, .title-link:focus, .title-link:visited, .title-link:active{
+    text-decoration: none;
+    color: inherit;
+}

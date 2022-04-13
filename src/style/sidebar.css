@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'logoTitleFont';
+    src: url('./fonts/CourierPrime-Regular.ttf') format('truetype');
+}
+
+#sidebar {
+    font-family: 'logoTitleFont', Fallback, sans-serif;
+    height: inherit;
+    background-color: rgb(85, 85, 85);
+}
+.visible{
+    background-color: blue;
+}
+.hidden{
+    visibility: hidden;
+}

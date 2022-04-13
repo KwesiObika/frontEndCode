@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'logoTitleFont';
+    src: url('./fonts/CourierPrime-Regular.ttf') format('truetype');
+}
+    
+
+.nav-link, .nav-link:hover, .nav-link:focus, .nav-link:visited, .nav-link:active{
+    font-family: 'logoTitleFont', Fallback, sans-serif;
+    text-decoration: none;
+    color: inherit;
+}
