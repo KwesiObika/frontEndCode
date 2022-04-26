@@ -1,0 +1,58 @@
+1E1B18
+FA7807
+E1EFE6
+1F2E73
+FFFF82
+
+full spectrum
+
+background: hsla(30, 11%, 11%, 1);
+background: linear-gradient(180deg, hsla(30, 11%, 11%, 1) 0%, hsla(229, 58%, 29%, 1) 20%, hsla(214, 20%, 66%, 1) 41%, hsla(65, 84%, 83%, 1) 56%, hsla(60, 100%, 75%, 1) 70%, hsla(28, 96%, 50%, 1) 95%);
+background: -moz-linear-gradient(180deg, hsla(30, 11%, 11%, 1) 0%, hsla(229, 58%, 29%, 1) 20%, hsla(214, 20%, 66%, 1) 41%, hsla(65, 84%, 83%, 1) 56%, hsla(60, 100%, 75%, 1) 70%, hsla(28, 96%, 50%, 1) 95%);
+background: -webkit-linear-gradient(180deg, hsla(30, 11%, 11%, 1) 0%, hsla(229, 58%, 29%, 1) 20%, hsla(214, 20%, 66%, 1) 41%, hsla(65, 84%, 83%, 1) 56%, hsla(60, 100%, 75%, 1) 70%, hsla(28, 96%, 50%, 1) 95%);
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#1e1b18", endColorstr="#1f2e73", GradientType=1 );
+
+
+orange button
+
+background: hsla(41, 100%, 70%, 1);
+background: linear-gradient(90deg, hsla(41, 100%, 70%, 1) 0%, hsla(7, 76%, 47%, 1) 100%);
+background: -moz-linear-gradient(90deg, hsla(41, 100%, 70%, 1) 0%, hsla(7, 76%, 47%, 1) 100%);
+background: -webkit-linear-gradient(90deg, hsla(41, 100%, 70%, 1) 0%, hsla(7, 76%, 47%, 1) 100%);
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FFCF67", endColorstr="#D3321D", GradientType=1 );
+
+
+blue button
+
+background: hsla(229, 58%, 29%, 1);
+background: linear-gradient(90deg, hsla(229, 58%, 29%, 1) 8%, hsla(225, 22%, 50%, 1) 76%);
+background: -moz-linear-gradient(90deg, hsla(229, 58%, 29%, 1) 8%, hsla(225, 22%, 50%, 1) 76%);
+background: -webkit-linear-gradient(90deg, hsla(229, 58%, 29%, 1) 8%, hsla(225, 22%, 50%, 1) 76%);
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#1f2e73", endColorstr="#63719B", GradientType=1 );
+
+
+yellow button
+
+background: hsla(49, 89%, 52%, 1);
+background: linear-gradient(90deg, hsla(49, 89%, 52%, 1) 9%, hsla(60, 100%, 75%, 1) 66%);
+background: -moz-linear-gradient(90deg, hsla(49, 89%, 52%, 1) 9%, hsla(60, 100%, 75%, 1) 66%);
+background: -webkit-linear-gradient(90deg, hsla(49, 89%, 52%, 1) 9%, hsla(60, 100%, 75%, 1) 66%);
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F1CA19", endColorstr="#ffff82", GradientType=1 );
+
+
+black button
+
+background: hsla(30, 11%, 11%, 1);
+background: linear-gradient(90deg, hsla(30, 11%, 11%, 1) 15%, hsla(36, 18%, 22%, 1) 73%);
+background: -moz-linear-gradient(90deg, hsla(30, 11%, 11%, 1) 15%, hsla(36, 18%, 22%, 1) 73%);
+background: -webkit-linear-gradient(90deg, hsla(30, 11%, 11%, 1) 15%, hsla(36, 18%, 22%, 1) 73%);
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#1E1B18", endColorstr="#423A2E", GradientType=1 );
+
+
+white button
+
+background: hsla(60, 100%, 75%, 1);
+background: linear-gradient(90deg, hsla(60, 100%, 75%, 1) 22%, hsla(60, 93%, 94%, 1) 79%);
+background: -moz-linear-gradient(90deg, hsla(60, 100%, 75%, 1) 22%, hsla(60, 93%, 94%, 1) 79%);
+background: -webkit-linear-gradient(90deg, hsla(60, 100%, 75%, 1) 22%, hsla(60, 93%, 94%, 1) 79%);
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FFFF82", endColorstr="#FEFEE3", GradientType=1 );

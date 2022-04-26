@@ -4,21 +4,60 @@
 }
 
 #heading {
-    background-color: #e4e4e4;
     height: inherit;
     display: grid;
     grid-template-columns: 5fr 25fr 3fr 3fr 3fr 1fr;
     align-items: center;
     justify-items: center;
+    background: hsla(30, 11%, 11%, 1);
+    background: linear-gradient(
+                180deg, 
+                hsla(30, 11%, 11%, 1) 0%, 
+                hsla(229, 58%, 29%, 1) 25%, 
+                hsla(23, 56%, 42%, 1) 37%, 
+                hsla(27, 82%, 48%, 1) 42%, 
+                hsla(28, 96%, 50%, 1) 48%, 
+                hsla(28, 96%, 50%, 1) 56%, 
+                hsla(34, 96%, 57%, 1) 66%, 
+                hsla(60, 100%, 75%, 1) 81%, 
+                hsla(141, 30%, 91%, 1) 100%
+            );
+    background: -moz-linear-gradient(
+                180deg, 
+                hsla(30, 11%, 11%, 1) 0%, 
+                hsla(229, 58%, 29%, 1) 25%, 
+                hsla(23, 56%, 42%, 1) 37%, 
+                hsla(27, 82%, 48%, 1) 42%, 
+                hsla(28, 96%, 50%, 1) 48%, 
+                hsla(28, 96%, 50%, 1) 56%, 
+                hsla(34, 96%, 57%, 1) 66%, 
+                hsla(60, 100%, 75%, 1) 81%, 
+                hsla(141, 30%, 91%, 1) 100%
+            );
+    background: -webkit-linear-gradient(
+                180deg, 
+                hsla(30, 11%, 11%, 1) 0%, 
+                hsla(229, 58%, 29%, 1) 25%, 
+                hsla(23, 56%, 42%, 1) 37%, 
+                hsla(27, 82%, 48%, 1) 42%, 
+                hsla(28, 96%, 50%, 1) 48%, 
+                hsla(28, 96%, 50%, 1) 56%, 
+                hsla(34, 96%, 57%, 1) 66%, 
+                hsla(60, 100%, 75%, 1) 81%, 
+                hsla(141, 30%, 91%, 1) 100%
+            );
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#1e1b18", endColorstr="#1f2e73", GradientType=1 );
 }
 img{
     height: inherit;
 }
 #title {
+    margin: 2vw;
     font-family: 'logoTitleFont', Fallback, sans-serif;
     font-size: xx-large;
 }
 .title-link, .title-link:hover, .title-link:focus, .title-link:visited, .title-link:active{
+    
     text-decoration: none;
     color: inherit;
 }

@@ -4,9 +4,12 @@
 }
 
 #sidebar {
+    text-align: center;
     font-family: 'logoTitleFont', Fallback, sans-serif;
     height: inherit;
-    background-color: rgb(85, 85, 85);
+    background: linear-gradient(255deg, hsla(229, 58%, 29%, 1) 8%, hsla(225, 22%, 50%, 1) 76%);
+    background: -webkit-linear-gradient(225deg, hsla(229, 58%, 29%, 1) 8%, hsla(225, 22%, 50%, 1) 76%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#1f2e73", endColorstr="#63719B", GradientType=1 );
 }
 .visible{
     background-color: blue;

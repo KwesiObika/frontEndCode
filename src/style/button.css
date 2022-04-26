@@ -1,5 +1,18 @@
+@font-face {
+    font-family: 'buttonFont';
+    src: url('./fonts/BebasNeue-Regular.ttf') format('truetype');
+}
+
 .button{
+    font-family: 'buttonFont', Fallback, sans-serif;
     width: 10vw;
-    background-color: #7d7d7d;
-    border-radius: 10%;
+    height: 4vh;
+    border-radius: 10px;
+    margin: 0.4vw;
+    text-align: center;
+    background: hsla(49, 89%, 52%, 1);
+    background: linear-gradient(180deg, hsla(49, 89%, 52%, 1) 9%, hsla(60, 100%, 75%, 1) 66%);
+    background: -moz-linear-gradient(180deg, hsla(49, 89%, 52%, 1) 9%, hsla(60, 100%, 75%, 1) 66%);
+    background: -webkit-linear-gradient(181deg, hsla(49, 89%, 52%, 1) 9%, hsla(60, 100%, 75%, 1) 66%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F1CA19", endColorstr="#ffff82", GradientType=1 );
 }

@@ -49,46 +49,49 @@ class App extends React.Component {
 
   render() {
     return (
-      <Router>
-        <div id='layout'>
-          <div id='heading-container'><Heading accountName = "jim"/></div>
-          <div id = 'sidebar-toggle'><SidebarToggle sideChange = {() => this.sidebarSwitch() }/></div>
-          <div id='sidebar-container' className={this.state.sidebarShown ? 'shown' : 'hidden'}><Sidebar sidebarVisible = { this.state.sidebarShown } /></div>
-          <div id='page-container' className={this.state.sidebarShown ? 'narrow' : 'wide'} ><Routes>
-            <Route exact path="/home" element={
-              <HomePage sidebarVisible = {this.state.sidebarShown}/>
-            } />
-            <Route exact path="/about" element={
-              <Page login = {true} pageType = 'about' sidebarVisible = {this.state.sidebarShown}/>
-            } />
-            <Route exact path="/account" element={
-              <Page login = {true} pageType = 'account' sidebarVisible = {this.state.sidebarShown}/>
-            } />
-            <Route exact path="/dashboard" element={
-              <Page login = {true} pageType = 'dashboard' sidebarVisible = {this.state.sidebarShown}/>
-            } />
-            <Route exact path="/setup" element={
-              <Page login = {true} pageType = 'setup' sidebarVisible = {this.state.sidebarShown} />
-            } />
-            <Route exact path="/login" element={
-              <Page login = {true} pageType = 'login' sidebarVisible = {this.state.sidebarShown} />
-            } />
-            <Route exact path="/settings" element={
-              <Page login = {true} pageType = 'settings' sidebarVisible = {this.state.sidebarShown} />
-            } />
-            <Route exact path="/signup" element={
-              <Page login = {true} pageType = 'signup' sidebarVisible = {this.state.sidebarShown} />
-            } />
-            <Route exact path="/" element={
-              <HomePage sidebarVisible = {this.state.sidebarShown} />
-            } />
-            <Route path="/*" element={
-              <Page login = {true} pageType = 'error' sidebarVisible = {this.state.sidebarShown} />
-            } />
-          </Routes></div>
-          <div id = 'footer-container'><Footer /></div>
-         </div> 
-      </Router>
+      <main>
+        <title>X network or cloudCrowd</title>
+        <Router>
+          <div id={this.state.sidebarShown ? 'layout' : 'layout2'}>
+            <div id='heading-container'><Heading accountName = "jim"/></div>
+            <div id='sidebar-container' className={this.state.sidebarShown ? 'shown' : 'hidden'}><Sidebar sidebarVisible = { this.state.sidebarShown } /></div>
+            <div id = 'sidebar-toggle' className={this.state.sidebarShown ? 'tog' : 'gle'}><SidebarToggle sideChange = {() => this.sidebarSwitch() }/></div>
+            <div id='page-container' className={this.state.sidebarShown ? 'narrow' : 'wide'} ><Routes>
+              <Route exact path="/home" element={
+                <HomePage sidebarVisible = {this.state.sidebarShown}/>
+              } />
+              <Route exact path="/about" element={
+                <Page login = {true} pageType = 'about' sidebarVisible = {this.state.sidebarShown}/>
+              } />
+              <Route exact path="/account" element={
+                <Page login = {true} pageType = 'account' sidebarVisible = {this.state.sidebarShown}/>
+              } />
+              <Route exact path="/dashboard" element={
+                <Page login = {true} pageType = 'dashboard' sidebarVisible = {this.state.sidebarShown}/>
+              } />
+              <Route exact path="/setup" element={
+                <Page login = {true} pageType = 'setup' sidebarVisible = {this.state.sidebarShown} />
+              } />
+              <Route exact path="/login" element={
+                <Page login = {true} pageType = 'login' sidebarVisible = {this.state.sidebarShown} />
+              } />
+              <Route exact path="/settings" element={
+                <Page login = {true} pageType = 'settings' sidebarVisible = {this.state.sidebarShown} />
+              } />
+              <Route exact path="/signup" element={
+                <Page login = {true} pageType = 'signup' sidebarVisible = {this.state.sidebarShown} />
+              } />
+              <Route exact path="/" element={
+                <HomePage sidebarVisible = {this.state.sidebarShown} />
+              } />
+              <Route path="/*" element={
+                <Page login = {true} pageType = 'error' sidebarVisible = {this.state.sidebarShown} />
+              } />
+            </Routes></div>
+            <div id = 'footer-container'><Footer /></div>
+          </div> 
+        </Router>
+      </main>
     );
   }
 }

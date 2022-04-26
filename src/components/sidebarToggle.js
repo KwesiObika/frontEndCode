@@ -1,10 +1,11 @@
 import React from 'react';
+import '../style/sidebartoggle.css'
 
 class SidebarToggle extends React.Component {
     render() {
         return(
-            <div onClick={ ()=> {this.props.sideChange()}}>
-                hide sidebar
+            <div id = 'toggleButton' onClick={ ()=> {this.props.sideChange()}}>
+    
             </div>
         );
     }

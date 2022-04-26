@@ -1,0 +1,7 @@
+#toggleButton{
+    background: hsla(229, 58%, 29%, 1);
+    background: linear-gradient(355deg, hsla(229, 58%, 29%, 1) 8%, hsla(225, 22%, 50%, 1) 76%);
+    background: -webkit-linear-gradient(355deg, hsla(229, 58%, 29%, 1) 8%, hsla(225, 22%, 50%, 1) 76%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#1f2e73", endColorstr="#63719B", GradientType=1 );
+    height: 100%;
+}

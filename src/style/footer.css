@@ -1,8 +1,23 @@
 #footer{
     height: inherit;
-    background-color: #282828;
     display: grid;
     grid-template-columns: 1fr 13fr 1fr 1fr 1fr;
+    background: hsla(30, 11%, 11%, 1);
+    background: linear-gradient(
+                90deg, 
+                hsla(30, 11%, 11%, 1) 17%, 
+                hsla(229, 58%, 29%, 1) 83%
+    );
+    background: -moz-linear-gradient(
+                90deg, 
+                hsla(30, 11%, 11%, 1) 17%, 
+                hsla(229, 58%, 29%, 1) 83% 
+    );
+    background: -webkit-linear-gradient(
+                90deg, 
+                hsla(30, 11%, 11%, 1) 17%, 
+                hsla(229, 58%, 29%, 1) 83%
+    );
 }
 
 img {

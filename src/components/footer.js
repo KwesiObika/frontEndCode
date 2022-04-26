@@ -9,9 +9,9 @@ class Footer extends React.Component {
         return(
             <div id='footer'>
                 Footer Component
-                <MediaLinks />
-                <img src = {Discord} alt = "discord link with discord logo" />
-                <img src = {GitHub} alt = "github link with github logo" />
+                <MediaLinks image = {GitHub}  link = {'https://github.com'} alt = 'github link with github logo' />
+                <MediaLinks image = {Discord}  link = {'https://discord.com'} alt = 'discord link with github logo' />
+                <MediaLinks image = {GitHub}  link = {'https://github.com'} alt = 'github link with github logo' />
             </div>
         );
     }

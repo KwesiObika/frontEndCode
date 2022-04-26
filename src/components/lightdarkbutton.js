@@ -5,7 +5,7 @@ class LightDarkButton extends React.Component {
     render() {
         return(
             <div className = 'button'>
-                Light Mode Dark Mode toggle Component
+                Light / Dark
             </div>
         );
     }
