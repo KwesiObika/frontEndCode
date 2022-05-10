@@ -4,6 +4,7 @@
 }
 
 #sidebar {
+    overflow: scroll;
     text-align: center;
     font-family: 'logoTitleFont', Fallback, sans-serif;
     height: inherit;

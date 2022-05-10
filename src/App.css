@@ -1,5 +1,8 @@
+
 .App {
   text-align: center;
+  height: 100%;
+  margin: 0;
 }
 
 .App-logo {
@@ -54,11 +57,13 @@
     height: 10vh
   }
   #sidebar-container{
+    overflow: hidden;
     /* border: 10px solid aquamarine; */
     
   }
   #page-container{
     height: 90vh;
+    overflow: hidden;
     /* border: solid 10px yellow; */
   }
   #footer-container{
@@ -71,7 +76,7 @@
     visibility: hidden;
   }
   .shown{
-    height: 100%;
+    height: 90vh;
     grid-column: 1 / 2;
   }
   .narrow{
@@ -86,10 +91,13 @@
     background: -moz-linear-gradient(90deg, hsla(229, 58%, 29%, 1) 8%, hsla(225, 22%, 50%, 1) 76%);
     background: -webkit-linear-gradient(90deg, hsla(229, 58%, 29%, 1) 8%, hsla(225, 22%, 50%, 1) 76%);
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#1f2e73", endColorstr="#63719B", GradientType=1 );
+    
   }
   .tog{
     grid-column: 2/3;
+    
   }
   .gle{
     grid-column: 1/2;
+
   }

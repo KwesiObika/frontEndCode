@@ -12,7 +12,7 @@ class Heading extends React.Component {
             <div id="heading">
                 <Link to='/' className="title-link">
                     <div id='title'>
-                        Xnet_
+                        CrowdCloud_
                     </div>
                 </Link>
                 {this.props.accountName}

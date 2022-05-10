@@ -55,6 +55,10 @@ img{
     margin: 2vw;
     font-family: 'logoTitleFont', Fallback, sans-serif;
     font-size: xx-large;
+    background-image: linear-gradient(135deg,#ff4136,#5b53ff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .title-link, .title-link:hover, .title-link:focus, .title-link:visited, .title-link:active{
     

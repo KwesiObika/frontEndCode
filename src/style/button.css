@@ -16,3 +16,7 @@
     background: -webkit-linear-gradient(181deg, hsla(49, 89%, 52%, 1) 9%, hsla(60, 100%, 75%, 1) 66%);
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F1CA19", endColorstr="#ffff82", GradientType=1 );
 }
+a, a:hover, a:focus, a:visited, a:active{
+    text-decoration: none;
+    color: inherit;
+}

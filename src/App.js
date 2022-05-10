@@ -55,7 +55,7 @@ class App extends React.Component {
           <div id={this.state.sidebarShown ? 'layout' : 'layout2'}>
             <div id='heading-container'><Heading accountName = "jim"/></div>
             <div id='sidebar-container' className={this.state.sidebarShown ? 'shown' : 'hidden'}><Sidebar sidebarVisible = { this.state.sidebarShown } /></div>
-            <div id = 'sidebar-toggle' className={this.state.sidebarShown ? 'tog' : 'gle'}><SidebarToggle sideChange = {() => this.sidebarSwitch() }/></div>
+            <div id = 'sidebar-toggle' className={this.state.sidebarShown ? 'tog' : 'gle'}><SidebarToggle sideChange = {() => this.sidebarSwitch() } active = {this.state.sidebarShown}/></div>
             <div id='page-container' className={this.state.sidebarShown ? 'narrow' : 'wide'} ><Routes>
               <Route exact path="/home" element={
                 <HomePage sidebarVisible = {this.state.sidebarShown}/>
